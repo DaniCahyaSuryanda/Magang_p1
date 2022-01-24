@@ -1,8 +1,8 @@
 <?php
     $servername = "localhost";
-    $username = "username";
-    $password = "password";
-    $dbname = "password";
+    $username = "root";
+    $password = "";
+    $dbname = "p1_menejemen_sekolah";
 
     // Create connection
     $conn = mysqli_connect($servername, $username, $password, $dbname);
@@ -11,4 +11,4 @@
     if (!$conn) {
         die("Connection failed: " . mysqli_connect_error());
     }
-    echo "Connected successfully";
+    // echo "Connected successfully";

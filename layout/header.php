@@ -1,4 +1,8 @@
-<?php $baseUrl = "http://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>
+<?php 
+
+$baseUrl = "http://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; 
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
